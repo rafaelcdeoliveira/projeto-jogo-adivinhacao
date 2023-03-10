@@ -3,3 +3,4 @@ mes = 10
 ano = 2015
 
 print(dia, mes, ano, sep='/')
+print('teste')
