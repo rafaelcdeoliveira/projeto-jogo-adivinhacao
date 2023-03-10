@@ -1,6 +1,9 @@
-dia = 15
-mes = 10
-ano = 2015
+numero_secreto = 42
+chute_str = input('Digite o seu número: ')
 
-print(dia, mes, ano, sep='/')
-print('teste')
+chute = int(chute_str)
+
+if numero_secreto == chute:
+    print('Parabéns. Você acertou o número!')
+else:
+    print('você errou o número')
